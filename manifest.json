@@ -1,0 +1,9 @@
+{
+    "name": "Extension Twitch Shallik",
+    "description": "Extension Chrome permettant de savoir si SHALLIK est en live",
+    "version": "0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    background-color: #202020;
+    color: #F2F2F2;
+    width: 400px;
+    height: auto;
+}
+
+header {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#channelUser {
+    display: inline;
+    margin-left: 1.2em;
+}
+
+#titleLive {
+    display: inline;
+    text-align: right;
+    margin-left: 1em;
+}
+
+section {
+    border-radius: 2em;
+    background-color: #333333;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+section h1 {
+    text-align: center;
+    padding-top: 0.2em;
+    font-size: 4.6em;
+    padding-bottom: 0em;
+}
+
+h1 {
+    font-family: '  sf-pro-display-black', sans-serif ;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+#statusLive {
+    font-family: 'sf-pro-text', sans-serif;
+    color: #22b573;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 0.38em;
+    display: inline;
+    font-size: 3.2em;
+}
+
+#socialMedia {
+    padding-left: 0em;
+    display: inline;
+    margin-bottom: 3em;
+    margin-left: 2em;
+}
+
+#socialMedia li a img {
+    width: 20px;
+    height: auto;
+}
+
+#socialMedia li a img[title="twitch"] {
+    width: 16px;
+    height: auto;
+}
+
+#socialMedia li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 2.7em;
+}
+
+p {
+    font-family: 'pill-gothic-300mg-light', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'sf-pro-display-black';
+    src: url('../fonts/sf-pro-display-black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'sf-pro-text';
+    src: url('../fonts/sf-pro-text.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'pill-gothic-300mg-light';
+    src: url('../fonts/pill-gothic-300mg-light.ttf') format('truetype');
+}
